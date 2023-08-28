@@ -96,6 +96,7 @@ input {
   margin-bottom: -2px;
   margin-left: -15px;
   padding: 20px;
+  cursor:pointer;
 }
 input::after {
   color: black;
