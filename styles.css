@@ -17,7 +17,7 @@ body {
   height: 650px;
   margin-top: 100px;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -70,6 +70,8 @@ button {
   cursor: pointer;
   width: 400px;
   font-size: small;
+  font-weight: 10px;
+  font-family: url("fonts/Roboto-Bold.ttf");
 }
 
 button:hover {
@@ -97,17 +99,66 @@ input {
   margin-bottom: -2px;
   margin-left: -15px;
   padding: 20px;
-  cursor:pointer;
+  cursor: pointer;
 }
 input::after {
   color: black;
 }
 /* how to design with a different size of screen */
-/* @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: white;
+    width: 100%;
   }
-} */
+  .all::before {
+    content: url(images/illustration-sign-up-mobile.svg);
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+  }
+  .all {
+    width: 100%;
+    text-align: left;
+    margin-left: -70px;
+    padding: 0;
+    border-radius: 0;
+    background-color: white;
+    /* height: 100%; */
+    margin-top: 150px;
+  }
+  .image {
+    display: none;
+  }
+  button {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  input {
+    width: 93%;
+    margin-left: 2px;
+    margin-right: auto;
+    padding: 8px;
+    height: 20px;
+  }
+  h1 {
+    font-size: 30px;
+    /* margin-left: ; */
+  }
+  #heading {
+    font-family: url("fonts/Roboto-Regular.ttf");
+    font-size: small;
+    width: 100%;
+    display: inline-block;
+  }
+  li {
+    font-size: small;
+    margin-left: -2px;
+    /* margin-left: ; */
+  }
+}
 
 .modal {
   position: absolute;
