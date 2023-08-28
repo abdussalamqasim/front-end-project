@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="all kill">
+      <section class="text">
+        <h1>Stay Updated!</h1>
+        <div id="heading">
+          Join 60000+ prouct managers receiving monthly updates on:
+        </div>
+        <div class="list">
+          <ul>
+            <li>Product disovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+        </div>
+        <div id="label">
+          <label for="email"><small>Email address</small> </label>
+          <small class="error hidden">Valid email required</small>
+        </div>
+
+        <input type="email" placeholder="email@company.com" class="email" />
+        <button class="btn">Subscribe to a monthly newsletter</button>
+      </section>
+      <section class="image">
+        <img src="images/illustration-sign-up-desktop.svg" alt="" />
+      </section>
+    </div>
+    <div class="modal hidden alls">
+      <img src="images/icon-success.svg" alt="success" />
+      <h1 class="header">Thanks for subscribing!</h1>
+      <p class="confirmation">
+        A confirmation email has been sent to
+        <strong><span class="inputEmail"></span>.</strong> Please open it and
+        click the button inside to confirm your subscription
+      </p>
+      <button class="dismiss">Dismiss message</button>
+    </div>
+
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
