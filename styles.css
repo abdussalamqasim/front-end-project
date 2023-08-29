@@ -167,35 +167,35 @@ header {
   .all::before {
     content: url("images/illustration-sign-up-mobile.svg");
     top: 0;
-
+    left: 70px;
     position: absolute;
+    margin-right: auto;
+    margin-left: -70px;
+    width: 80%;
+  }
+  .all {
+    margin-left: -200px;
+    margin-top: 150px;
   }
 
-  .all {
-    width: 100vw;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    padding: 0;
-    border-radius: 0;
+  li {
+    margin-left: 15px;
   }
 
   .image {
     display: none;
   }
   button {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 400px;
+    margin-right: 10px;
+    margin-left: -20px;
   }
   input {
-    width: 93%;
-    margin-left: 2px;
-    margin-right: auto;
-    padding: 8px;
-    height: 20px;
+    width: 370px;
+    margin-right: 10px;
+    margin-left: -25px;
+    /* padding: 8px; */
+    /* height: 20px; */
   }
   h1 {
     font-size: 30px;
@@ -215,17 +215,19 @@ header {
 
   .alls {
     background: white;
+    text-align: left;
     border-radius: 0;
-    width: 100%;
-    height: 100%;
-    margin-left: 50px;
-    margin-top: 150px;
+    width: 55%;
+    height: 80%;
+    margin-left: -60px;
+    margin-top: 70px;
     margin-bottom: 5px;
+    line-height: 30px;
   }
 
   .dismiss {
-    margin-top: 150px;
-    margin-left: auto;
+    margin-top: 100px;
+    margin-left: -15px;
     margin-right: -10px;
   }
   .hidden {
