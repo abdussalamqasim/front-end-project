@@ -186,12 +186,12 @@ header {
     display: none;
   }
   button {
-    width: 400px;
+    width: 350px;
     margin-right: 10px;
     margin-left: -20px;
   }
   input {
-    width: 350px;
+    width: 310px;
     margin-right: 10px;
     margin-left: -25px;
     /* padding: 8px; */
@@ -219,7 +219,7 @@ header {
     border-radius: 0;
     width: 60%;
     height: 80%;
-    margin-left: -60px;
+    margin-left: -30px;
     margin-top: 70px;
     margin-bottom: 5px;
     line-height: 30px;
