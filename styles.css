@@ -104,62 +104,6 @@ input {
 input::after {
   color: black;
 }
-/* how to design with a different size of screen */
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: white;
-    width: 100%;
-  }
-  .all::before {
-    content: url(images/illustration-sign-up-mobile.svg);
-    top: 0;
-    right: 0;
-    position: absolute;
-    width: 100%;
-    margin: 0;
-  }
-  .all {
-    width: 100%;
-    text-align: left;
-    margin-left: -70px;
-    padding: 0;
-    border-radius: 0;
-    background-color: white;
-    /* height: 100%; */
-    margin-top: 150px;
-  }
-  .image {
-    display: none;
-  }
-  button {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  input {
-    width: 93%;
-    margin-left: 2px;
-    margin-right: auto;
-    padding: 8px;
-    height: 20px;
-  }
-  h1 {
-    font-size: 30px;
-    /* margin-left: ; */
-  }
-  #heading {
-    font-family: url("fonts/Roboto-Regular.ttf");
-    font-size: small;
-    width: 100%;
-    display: inline-block;
-  }
-  li {
-    font-size: small;
-    margin-left: -2px;
-    /* margin-left: ; */
-  }
-}
-
 .modal {
   position: absolute;
   top: 50%;
@@ -213,4 +157,93 @@ header {
 
 .dismiss {
   width: 300px;
+}
+/* how to design with a different size of screen */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    width: 100%;
+  }
+  .all::before {
+    content: url("images/illustration-sign-up-mobile.svg");
+    top: 0;
+
+    position: absolute;
+  }
+
+  .all {
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .image {
+    display: none;
+  }
+  button {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  input {
+    width: 93%;
+    margin-left: 2px;
+    margin-right: auto;
+    padding: 8px;
+    height: 20px;
+  }
+  h1 {
+    font-size: 30px;
+    /* margin-left: ; */
+  }
+  #heading {
+    font-family: url("fonts/Roboto-Regular.ttf");
+    font-size: small;
+    width: 100%;
+    display: inline-block;
+  }
+  li {
+    font-size: small;
+    margin-left: -2px;
+    /* margin-left: ; */
+  }
+
+  .alls {
+    background: white;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 5px;
+  }
+
+  .dismiss {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: -10px;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .overlay {
+    display: none;
+  }
+  .modal {
+    box-shadow: none;
+  }
+  .confirmation {
+    font-size: medium;
+    margin-top: -10px;
+  }
+  .icon {
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
 }
