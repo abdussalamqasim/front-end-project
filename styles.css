@@ -171,7 +171,7 @@ header {
     position: absolute;
     margin-right: auto;
     margin-left: -70px;
-    width: 80%;
+    width: 100%;
   }
   .all {
     margin-left: -200px;
@@ -191,7 +191,7 @@ header {
     margin-left: -20px;
   }
   input {
-    width: 370px;
+    width: 350px;
     margin-right: 10px;
     margin-left: -25px;
     /* padding: 8px; */
@@ -217,7 +217,7 @@ header {
     background: white;
     text-align: left;
     border-radius: 0;
-    width: 55%;
+    width: 60%;
     height: 80%;
     margin-left: -60px;
     margin-top: 70px;
