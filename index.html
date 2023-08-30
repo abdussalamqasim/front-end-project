@@ -7,7 +7,9 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="container"></div>
     <div class="all kill">
+      
       <section class="text">
         <h1>Stay Updated!</h1>
         <div id="heading">
@@ -26,14 +28,16 @@
         </div>
 
         <input type="email" placeholder="email@company.com" class="email" />
-        <button class="btn">Subscribe to a monthly newsletter</button>
+        <button type="button" class="btn">
+          Subscribe to a monthly newsletter
+        </button>
       </section>
       <section class="image">
         <img src="images/illustration-sign-up-desktop.svg" alt="" />
       </section>
     </div>
     <div class="modal hidden alls">
-      <img src="images/icon-success.svg" alt="success" />
+      <img src="images/icon-success.svg" alt="success" class="icon" />
       <h1 class="header">Thanks for subscribing!</h1>
       <p class="confirmation">
         A confirmation email has been sent to
@@ -44,6 +48,7 @@
     </div>
 
     <div class="overlay hidden"></div>
+  </div>
     <script src="script.js"></script>
   </body>
 </html>

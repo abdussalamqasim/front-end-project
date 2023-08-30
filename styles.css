@@ -164,18 +164,22 @@ header {
     background-color: white;
     width: 100%;
   }
+  .container {
+    width: 100%;
+  }
   .all::before {
     content: url("images/illustration-sign-up-mobile.svg");
     top: 0;
-    left: 70px;
+    left: 0;
     position: absolute;
-    margin-right: auto;
-    margin-left: -70px;
+    /* margin-right: ; */
+    /* margin-left: -70px; */
     width: 100%;
   }
   .all {
-    margin-left: -200px;
+    /* margin-left: -200px; */
     margin-top: 150px;
+    width: 100%;
   }
 
   li {
@@ -186,12 +190,12 @@ header {
     display: none;
   }
   button {
-    width: 350px;
+    width: 180%;
     margin-right: 10px;
     margin-left: -20px;
   }
   input {
-    width: 310px;
+    width: 160%;
     margin-right: 10px;
     margin-left: -25px;
     /* padding: 8px; */
@@ -247,5 +251,8 @@ header {
   .icon {
     margin-bottom: 10px;
     margin-top: -10px;
+  }
+  .text {
+    margin-left: -100px;
   }
 }
